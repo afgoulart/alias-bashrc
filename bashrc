@@ -1,6 +1,5 @@
-alias tchau='sudo shutdown -h now'
-alias gp='git pull'
-alias gps='git push'
+alias pull='git pull'
+alias push='git push'
 alias gm='git commit -m'
 alias gma='git commit -am'
 alias gst='git status -s'
@@ -37,6 +36,7 @@ alias updatey="sudo apt-get --yes"
 # update on one command 
 alias update='sudo apt-get update && sudo apt-get upgrade'
 
+# nginx
 alias nginxreload='sudo /usr/local/nginx/sbin/nginx -s reload'
 alias nginxtest='sudo /usr/local/nginx/sbin/nginx -t'
 
