@@ -1,9 +1,13 @@
+# system
+alias tchau='shutdown -h now'
+
+# git
 alias pull='git pull'
 alias push='git push'
+alias add='git add -A'
 alias gm='git commit -m'
 alias gma='git commit -am'
 alias gst='git status -s'
-alias tchau='shutdown -h now'
 
 ## get rid of command not found ##
 alias cd..='cd ..'
@@ -29,6 +33,8 @@ alias vi=vim
 alias svi='sudo vi'
 alias vis='vim "+set si"'
 alias edit='vim'
+
+alias cl='clear'
 
 alias apt-get="sudo apt-get"
 alias updatey="sudo apt-get --yes"
