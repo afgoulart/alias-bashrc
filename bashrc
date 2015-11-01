@@ -8,7 +8,7 @@ alias add='git add -A'
 alias gm='git commit -m'
 alias gma='git commit -am'
 alias gst='git status -s'
-alias log='git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit'
+alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
 ## get rid of command not found ##
 alias cd..='cd ..'
