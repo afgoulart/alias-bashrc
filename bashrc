@@ -43,6 +43,9 @@ alias updatey="sudo apt-get --yes"
 # update on one command 
 alias update='sudo apt-get update && sudo apt-get upgrade'
 
+# hosts
+alias hosts='sudo vi /etc/hosts'
+
 # nginx
 alias nginxreload='sudo /usr/local/nginx/sbin/nginx -s reload'
 alias nginxtest='sudo /usr/local/nginx/sbin/nginx -t'
