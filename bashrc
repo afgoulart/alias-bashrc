@@ -1,5 +1,7 @@
 # system
 alias tchau='shutdown -h now'
+alias kname='killall'
+alias kprocess='kill -9'
 
 # git
 alias pull='git pull'
