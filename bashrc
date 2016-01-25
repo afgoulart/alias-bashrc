@@ -23,6 +23,10 @@ alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 
+alias ll='ls -l'
+alias la='ls -la'
+alias lld='ll | grep "^d"'
+
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -41,6 +45,8 @@ alias cl='clear'
 
 alias apt-get="sudo apt-get"
 alias updatey="sudo apt-get --yes"
+
+alias hosts="sudo vi /etc/hosts"
  
 # update on one command 
 alias update='sudo apt-get update && sudo apt-get upgrade'
