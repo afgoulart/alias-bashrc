@@ -6,6 +6,7 @@ alias kprocess='kill -9'
 # git
 alias pull='git pull'
 alias push='git push'
+alias stash='git stash'
 alias add='git add -A'
 alias gm='git commit -m'
 alias gma='git commit -am'
