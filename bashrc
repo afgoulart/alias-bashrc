@@ -4,7 +4,7 @@ alias kname='killall'
 alias kprocess='kill -9'
 
 # git
-alias pull='git pull'
+alias pull='git pull --rebase'
 alias push='git push'
 alias stash='git stash'
 alias add='git add -A'
