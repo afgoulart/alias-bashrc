@@ -13,9 +13,12 @@ alias gma='git commit -am'
 alias gst='git status -s'
 alias log='git log --graph --pretty=format:"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]" --decorate --date=short'
 
+#zsh
+alias zshrc='vi ~/.zshrc'
+
 ## get rid of command not found ##
 alias cd..='cd ..'
- 
+
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -48,8 +51,8 @@ alias apt-get="sudo apt-get"
 alias updatey="sudo apt-get --yes"
 
 alias hosts="sudo vi /etc/hosts"
- 
-# update on one command 
+
+# update on one command
 alias update='sudo apt-get update && sudo apt-get upgrade'
 
 # hosts
@@ -59,8 +62,8 @@ alias hosts='sudo vi /etc/hosts'
 alias nginxreload='sudo /usr/local/nginx/sbin/nginx -s reload'
 alias nginxtest='sudo /usr/local/nginx/sbin/nginx -t'
 
-## pass options to free ## 
+## pass options to free ##
 alias meminfo='free -m -l -t'
- 
+
 ## Get server cpu info ##
 alias cpuinfo='lscpu'
