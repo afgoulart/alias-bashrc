@@ -67,3 +67,6 @@ alias meminfo='free -m -l -t'
 
 ## Get server cpu info ##
 alias cpuinfo='lscpu'
+
+## Ports
+alias ports='sudo lsof -i -P -n | grep LISTEN'
