@@ -56,7 +56,7 @@ alias hosts="sudo vi /etc/hosts"
 alias update='sudo apt-get update && sudo apt-get upgrade'
 
 # hosts
-alias hosts='sudo vi /etc/hosts'
+alias hosts='sudo nano /etc/hosts'
 
 # nginx
 alias nginxreload='sudo /usr/local/nginx/sbin/nginx -s reload'
