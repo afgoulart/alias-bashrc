@@ -2,6 +2,7 @@
 alias tchau='shutdown -h now'
 alias kname='killall'
 alias kprocess='kill -9'
+alias reboot='systemctl reboot -i'
 
 # git
 alias pull='git pull --rebase'
@@ -14,7 +15,7 @@ alias gst='git status -s'
 alias log='git log --graph --pretty=format:"%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]" --decorate --date=short'
 
 #zsh
-alias zshrc='vi ~/.zshrc'
+alias zshrc='nano ~/.zshrc'
 
 ## get rid of command not found ##
 alias cd..='cd ..'
