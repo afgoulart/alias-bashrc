@@ -28,8 +28,8 @@ alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 
-alias ll='ls -l'
-alias la='ls -la'
+alias ll='ls -lh'
+alias la='ls -lha'
 alias lld='ll | grep "^d"'
 
 alias grep='grep --color=auto'
